@@ -1,0 +1,20 @@
+\begin{table}[t]
+\caption{Repeated Uniform Refinement with 20\% Node Increments}\label{tab:refinement}
+\centering\footnotesize
+\begin{tabular}{@{}rrrrrrc@{}}\toprule
+Case&Initial $M$&Final $M$&Runs&Time (s)&Frames&Free\\\midrule
+01&42&42&1&0.08&0&Yes\\
+02&55&550&14&2.88&22&No\\
+03&40&40&1&0.05&0&Yes\\
+04&42&42&1&0.06&0&Yes\\
+05&38&38&1&0.06&0&Yes\\
+06&39&39&1&0.04&0&Yes\\
+07&32&32&1&0.07&0&Yes\\
+08&44&440&14&3.87&91&No\\
+09&54&54&1&0.28&0&Yes\\
+10&62&75&2&0.20&0&Yes\\
+11&64&338&10&10.00&0&Yes\\
+12&48&480&14&11.48&40&No\\
+\bottomrule\end{tabular}
+\par\par\smallskip\parbox{\columnwidth}{\footnotesize Time sums all attempted NLP solves. Frames counts body--obstacle overlaps in the last return, including failed solves. Free indicates a collision-free solution under the common criteria.}
+\end{table}

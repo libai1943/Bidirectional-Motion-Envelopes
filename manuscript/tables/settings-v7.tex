@@ -1,0 +1,27 @@
+\begin{table}[t]
+\caption{Vehicle, Mesh, and Solver Settings}\label{tab:settings}
+\centering\footnotesize
+\begin{tabular}{@{}llr@{}}\toprule
+Parameter&Symbol&Value\\\midrule
+Wheelbase&$\mathrm{L}_{\mathrm w}$&$2.8$ m\\
+Axle-to-front distance&$\mathrm{L}_{\mathrm f}$&$3.76$ m\\
+Rear overhang&$\mathrm{L}_{\mathrm r}$&$0.929$ m\\
+Half-width&$\mathrm{L}_{\mathrm{hw}}$&$0.971$ m\\
+Speed bound&$v_{\max}$&$2.5$ m/s\\
+Acceleration bound&$a_{\max}$&$1.0$ m/s$^2$\\
+Steering-angle bound&$\phi_{\max}$&$0.7$ rad\\
+Steering-rate bound&$\omega_{\max}$&$0.5$ rad/s\\
+Interval duration&$[h_{\min},h_{\max}]$&$[0.001,0.5]$ s\\
+Total-time bound&$T_{\max}$&$60$ s\\
+Interval angle bound&$\alpha_{\max}$&$1.5$ rad\\
+Reference-clock step&$\Delta t_{\mathrm{ref}}$&$0.001$ s\\
+Step factor&$\beta$&$0.6$\\
+Triangle-area threshold&$\varepsilon_A$&$0.01$ m$^2$\\\midrule
+NLP solver&\multicolumn{2}{r}{IPOPT 3.14.19 / MA27}\\
+Modeling interface&\multicolumn{2}{r}{CasADi 3.8.1}\\
+Iteration / CPU limits&\multicolumn{2}{r}{$3000$ / $180$ s}\\
+Requested / acceptable tolerances&\multicolumn{2}{r}{$10^{-9}$ / $10^{-8}$}\\
+NLP feasibility tolerance&\multicolumn{2}{r}{$10^{-7}$}\\
+Linear-algebra threads&\multicolumn{2}{r}{$1$}\\\bottomrule
+\end{tabular}
+\end{table}

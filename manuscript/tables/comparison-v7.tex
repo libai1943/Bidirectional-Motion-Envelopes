@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\caption{Matched Collision-Model and Node-Placement Comparisons}\label{tab:comparison}
+\centering\footnotesize
+\begin{tabular}{@{}llccrrr@{}}\toprule
+Method&Initial mesh&Solved&Collision-free&Collision frames (\%)&Select (ms)&Solve (s)\\\midrule
+BME--OBCA&Adaptive $M$&12/12&12/12&0 (0.000)&30.7&0.110\\
+BME--uniform placement&Matched $M$, free $h_k$&12/12&12/12&0 (0.000)&31.4&0.100\\
+Triangle Area&Adaptive $M$&11/12&11/12&0 (0.000)&31.9&0.206\\
+Body--OBCA&Adaptive $M$&12/12&5/12&2,798 (2.171)&31.8&0.106\\
+Uniform--OBCA&Uniform $2M$&11/12&3/12&1,206 (0.707)&34.6&0.221\\
+Uniform + 2 cm&Uniform $2M$&12/12&9/12&404 (0.219)&31.5&0.180\\
+Two covering discs&Uniform $2M$&10/12&9/12&158 (0.084)&30.4&0.396\\
+Motion-radius buffer&Adaptive $M$&9/12&9/12&0 (0.000)&29.7&0.140\\
+Check--refine&Uniform $M$ to $10M$&12/12&9/12&153 (0.063)&29.6&0.137\\
+\bottomrule\end{tabular}
+\par\par\smallskip\parbox{\textwidth}{\footnotesize Solved denotes successful or acceptable IPOPT termination. Collision-free additionally requires NLP feasibility and zero detected physical-body overlap with the original obstacles. Collision frames pool only successfully solved, NLP-feasible trajectories. Select and Solve are medians over all twelve cases. Every variant uses the selected $M$ as its count reference. Check--refine reports cumulative solve time per case and its first count-selection time.}
+\end{table*}

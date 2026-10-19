@@ -1,11 +1,5 @@
 __pycache__/
 *.pyc
-*.npz
 work/
-experiments/inputs/
-experiments/source/
-experiments/revision_v7/results/
-experiments/revision_v7/logs/
-experiments/revision_v7/refinement/
 experiments/revision_v7/archive/
-manuscript/
+experiments/source/
