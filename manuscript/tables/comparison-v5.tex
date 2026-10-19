@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\caption{Matched Collision-Model and Discretization Comparisons}\label{tab:comparison}
+\centering\footnotesize
+\begin{tabular}{@{}llrrrrr@{}}\toprule
+Method&Mesh&Solved&Accepted&Collision frames&Collision frames (\%)&Median solve time (s)\\\midrule
+BME--OBCA&Adaptive $M$&12/12&12/12&0&0.000&0.218\\
+Triangle Area&Adaptive $M$&10/12&10/12&0&0.000&0.559\\
+Body--OBCA&Adaptive $M$&12/12&5/12&2,730&2.115&0.212\\
+Uniform--OBCA&Uniform $2M$&12/12&2/12&1,309&0.705&0.620\\
+Uniform + 2 cm&Uniform $2M$&12/12&8/12&472&0.261&0.414\\
+Two covering discs&Uniform $2M$&10/12&10/12&0&0.000&1.289\\
+Motion-radius buffer&Adaptive $M$&10/12&10/12&0&0.000&0.278\\
+Check--refine&Uniform $M$ to $10M$&12/12&8/12&171&0.085&0.485\\
+\bottomrule\end{tabular}
+\par\smallskip\parbox{\textwidth}{\footnotesize Solved: successful/acceptable solver termination. Accepted: solved, algebraically feasible, and no detected overlap. Collision-frame counts and percentages pool only successfully solved, algebraically feasible trajectories; an unsuccessful return is never counted as accepted even if it has no overlap. Timing medians include all twelve cases. For check--refine, time is summed across every attempted mesh of each case.}
+\end{table*}

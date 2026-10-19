@@ -1,0 +1,20 @@
+\begin{table}[t]
+\caption{Repeated Uniform Refinement with 20\% Node Increments}\label{tab:refinement}
+\centering\footnotesize\setlength{\tabcolsep}{4.8pt}
+\begin{tabular}{@{}rrrrrrc@{}}\toprule
+Case&Initial $M$&Final $M$&Runs&Total (s)&Frames&\shortstack{Collision-free\\solution}\\\midrule
+01&42&42&1&0.17&0&Yes\\
+02&55&550&14&21.00&6&No\\
+03&40&40&1&0.11&0&Yes\\
+04&42&62&3&0.45&0&Yes\\
+05&38&38&1&0.52&0&Yes\\
+06&39&39&1&0.09&0&Yes\\
+07&32&39&2&0.39&0&Yes\\
+08&44&440&14&12.33&103&No\\
+09&54&54&1&0.34&0&Yes\\
+10&62&75&2&0.56&0&Yes\\
+11&64&640&14&450.77&19&No\\
+12&48&480&14&43.44&43&No\\
+\bottomrule\end{tabular}
+\par\smallskip\parbox{\columnwidth}{\footnotesize Frames: colliding frames of the last returned trajectory, also shown for unsuccessful returns. Total: cumulative NLP solve time, excluding collision checks. The procedure stops at a collision-free solution or $10M$ points.}
+\end{table}

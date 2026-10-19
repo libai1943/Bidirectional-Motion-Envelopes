@@ -21,7 +21,7 @@ for p in sorted((H/'results').glob('*.json')):
 for stage,rows in groups.items():
     (C/f'{stage}.json').write_text(json.dumps(rows,indent=2),encoding='utf-8')
 assert [len(groups[k]) for k in groups]==[72,84,61]
-index=dict(current_manuscript='v8; numerical results unchanged from the complete v7 MA27 rerun',
+index=dict(current_manuscript='v9; numerical results unchanged from the complete v7 MA27 rerun',
     current_experiment_root='experiments/revision_v7',current_solver='IPOPT 3.14.19 with HSL MA27',
     current_attempts=217,benchmark_commit='476ef8573d9e22578be5c3d42514a9a29f27d07a',
     groups={k:dict(attempts=len(v),index=(C/f'{k}.json').relative_to(R).as_posix()) for k,v in groups.items()},

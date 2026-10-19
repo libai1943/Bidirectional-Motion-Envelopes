@@ -1,5 +1,5 @@
 {
-  "current_manuscript": "v8; numerical results unchanged from the complete v7 MA27 rerun",
+  "current_manuscript": "v9; numerical results unchanged from the complete v7 MA27 rerun",
   "current_experiment_root": "experiments/revision_v7",
   "current_solver": "IPOPT 3.14.19 with HSL MA27",
   "current_attempts": 217,
@@ -20,11 +20,14 @@
   },
   "directories": {
     "experiments/inputs": "All twelve benchmark inputs and timed Hybrid A* references, JSON and MATLAB MAT formats.",
+    "experiments/source/CommonParking": "Benchmark and initialization source snapshot with upstream license notices.",
     "experiments/revision_v7": "Current source, parameters, result summaries, numerical checks and figure generators.",
     "experiments/revision_v7/results": "Every successful or failed solver return, initial guess, settings and dense interpolation arrays.",
     "experiments/revision_v7/logs": "Complete IPOPT logs for all 217 current attempts.",
     "experiments/revision_v7/refinement": "Per-case sequences and cumulative costs of all refinement attempts.",
     "experiments/revision_v7/catalog": "Stage-specific links from each attempt to its input, output, log and dense collision data.",
+    "experiments/revision_v5": "Historical MUMPS study, including diagnostic model variants; superseded by the MA27 rerun.",
+    "experiments/revision_v6": "Historical geometry/proof checks and figure source; no new NLP runs.",
     "manuscript/figures": "Generated experiment and geometric figures.",
     "manuscript/tables": "Generated current result tables and historical tables needed by retained checks."
   },

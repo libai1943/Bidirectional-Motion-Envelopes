@@ -1,16 +1,20 @@
 {
   "current_experiment_version": "v7 MA27",
-  "current_manuscript_revision": "v8",
+  "current_manuscript_revision": "v9",
   "file_bytes_preserved": true,
-  "scope": "All 217 current manuscript attempts, own source, benchmark inputs, timed references, configurations, results, logs, collision arrays, generated figures and tables. No historical studies, author assets or third-party source/binaries.",
+  "scope": "Current and historical experimental source and records, with the original CommonParking source license and notices.",
   "files": {
     "experiments/build_release_index.py": {
-      "bytes": 4819,
-      "sha256": "29e0dfb7ab761f090f7649bd33b66ec67fece08c8446c9a019e8257c3dc77fa3"
+      "bytes": 4879,
+      "sha256": "812e5500c782192b6ed630e35d23651483e5236ae0345e5ba7e13837b97982bc"
+    },
+    "experiments/evaluate_results.py": {
+      "bytes": 5263,
+      "sha256": "8f2d2092d76a0c9f2e0dcc2931789d5366b496ba3ce95298a2c07daacb861d95"
     },
     "experiments/experiment-index.json": {
-      "bytes": 3220,
-      "sha256": "7901c5c8976b4f76565320c9c6f12fda45ee44cce3bb9ebc7de05bdff8502fe1"
+      "bytes": 3570,
+      "sha256": "061e1cb95902942a55fdc7ead58a2824fe9b2835d728cbf75d327b5ec0ac4ce7"
     },
     "experiments/fetch_benchmark.py": {
       "bytes": 1101,
@@ -112,13 +116,173 @@
       "bytes": 60417,
       "sha256": "56e93fa487f8e23908e99b7784021a2945232ed340040f6d3729b91d0bf4dcbd"
     },
+    "experiments/make_figures.py": {
+      "bytes": 13482,
+      "sha256": "c971260f55b92bbddc1b0802a9c89f04bf98f872ad2bcac27db7dc8d866aaadc"
+    },
     "experiments/prepare_initials.m": {
       "bytes": 1906,
       "sha256": "7a661675c72887a7f5cf8b5b74e65b429f5733bb2575ba30c1c7c7270b61e4b0"
     },
+    "experiments/reproduce.py": {
+      "bytes": 1143,
+      "sha256": "486caefe419aa5c72890fd2258a1cfc311105f03604a3f13b657a47df7a74ec6"
+    },
     "experiments/requirements.txt": {
       "bytes": 75,
       "sha256": "71f7b37bf3dad6ed21a592d0aeaca85650adfe3287f39878fce540f17e3831b2"
+    },
+    "experiments/revision_v5/adaptive_mesh.py": {
+      "bytes": 10218,
+      "sha256": "d12eaace0034a36faa6af78c8f8a4e7ae5aa5b19f8d0ee8ac29a3a47993720ea"
+    },
+    "experiments/revision_v5/case-results.csv": {
+      "bytes": 7951,
+      "sha256": "6cd566084495a862afc699db9067fe971692a0366f3126bcee2d3f3013a246b4"
+    },
+    "experiments/revision_v5/check_interpolation.py": {
+      "bytes": 3131,
+      "sha256": "744b42e10173b9890ceb085b3f22b998372546ebe198ddf0221fea21230aee86"
+    },
+    "experiments/revision_v5/diagnostic-angle-upper-only/run_benchmark.py": {
+      "bytes": 12795,
+      "sha256": "53aa96847d87006c62236b1dd1829bca4c65243c4363e659b576cbfa63ee1216"
+    },
+    "experiments/revision_v5/diagnostic-redundant-angle-lower-bound/run_benchmark.py": {
+      "bytes": 12789,
+      "sha256": "48c1b1256cd8f7d0286a52b73884c9931bb9cb2b69e5c80c3b238404bf843355"
+    },
+    "experiments/revision_v5/diagnostic-with-tangent-restrictions/run_benchmark.py": {
+      "bytes": 12979,
+      "sha256": "7ab5fa3b3ffdf293043f5b03c78e88d7a6def1fe0ef1b5c8d9cbc880b2995569"
+    },
+    "experiments/revision_v5/figure-audit.json": {
+      "bytes": 1091,
+      "sha256": "5ffdb2a061ee4f10163658058fa0b48cc1579233e8029ab0258b06f779fd9cd0"
+    },
+    "experiments/revision_v5/make_figures.py": {
+      "bytes": 11235,
+      "sha256": "96fce397616d757cb299a3e1289bb2080eb2ac94a05c97050b87644d5686165f"
+    },
+    "experiments/revision_v5/MODEL_SELECTION.txt": {
+      "bytes": 645,
+      "sha256": "0ad25cf12f05606d0fa5c195594330db49ffdb8a11842ad5e65bd70f27fa0b91"
+    },
+    "experiments/revision_v5/README.txt": {
+      "bytes": 7113,
+      "sha256": "b903e8f4f1054b98fe2316ba288d2551c6f3ce7d1773b2c1edc9f9e6875bdff0"
+    },
+    "experiments/revision_v5/refinement/case01.json": {
+      "bytes": 521,
+      "sha256": "bd36388fcd43e88c8cd9803fbb67855376065df7227f169159dc72bbccdd50fc"
+    },
+    "experiments/revision_v5/refinement/case02.json": {
+      "bytes": 4390,
+      "sha256": "111111f96f4c1fe183c9d7821b4354f6c87f21e4958076dd52238a0526368030"
+    },
+    "experiments/revision_v5/refinement/case03.json": {
+      "bytes": 521,
+      "sha256": "86920e8847af19e0342b75705bbb6fcc6aacf483f57430a2d5f7db7537c296e2"
+    },
+    "experiments/revision_v5/refinement/case04.json": {
+      "bytes": 1112,
+      "sha256": "2e6c0384c45f07b56de2d7f6dda34f14272e38e14134bc8103b56f0afe61aef1"
+    },
+    "experiments/revision_v5/refinement/case05.json": {
+      "bytes": 517,
+      "sha256": "bef1d81205e5e692d6a59f7db3bce02b93fa6d83117038fdc76b5f38727f4cc6"
+    },
+    "experiments/revision_v5/refinement/case06.json": {
+      "bytes": 521,
+      "sha256": "e01fbd6c787971e7ed077219004fa9d6862acce9bbcfb93130b31592e2e3daf7"
+    },
+    "experiments/revision_v5/refinement/case07.json": {
+      "bytes": 818,
+      "sha256": "1f143873c37f2865f572305069599af531e9e998461bce64649cff07464466d0"
+    },
+    "experiments/revision_v5/refinement/case08.json": {
+      "bytes": 4396,
+      "sha256": "be875a7764ba3b76b22fed337089fe8f3722d305c821a2fa5a46018048f2bfc3"
+    },
+    "experiments/revision_v5/refinement/case09.json": {
+      "bytes": 513,
+      "sha256": "bcf551bcacb0150f4439c484cd7a2dd6d746a774723fe495df0cc3185217ce4a"
+    },
+    "experiments/revision_v5/refinement/case10.json": {
+      "bytes": 826,
+      "sha256": "537c1fc5b512f087c3f39ec66b53fe248fa645af94333f7d462a5ebd1d74ae31"
+    },
+    "experiments/revision_v5/refinement/case11.json": {
+      "bytes": 4418,
+      "sha256": "abdae3af96551a51a810929988ffc76cbf856af5efaa486c704e6fc97a92625b"
+    },
+    "experiments/revision_v5/refinement/case12.json": {
+      "bytes": 4396,
+      "sha256": "e609f0ae3498253b3b0e78ada11c3f43d2d080e822a432b62de968a32e315c2e"
+    },
+    "experiments/revision_v5/reproduce.py": {
+      "bytes": 1574,
+      "sha256": "96cf1329fcf0f255952bfd0f353f15508b591599dc2b63b50d79f0b3054b4291"
+    },
+    "experiments/revision_v5/run_benchmark.py": {
+      "bytes": 13490,
+      "sha256": "3a1488a16d419a516f572b81dfb1464c18fc8d178de7b67e735b9b43898e7e53"
+    },
+    "experiments/revision_v5/run_study.py": {
+      "bytes": 4302,
+      "sha256": "d55571537001b0c76e178bcc13b664b31ff8e729d8a5999dcb668c7b0d8c4be9"
+    },
+    "experiments/revision_v5/selection.json": {
+      "bytes": 1398,
+      "sha256": "1cade0931d86cfe07bfb6bbde8b5865b29959c42b8c00baea42351c893ac0026"
+    },
+    "experiments/revision_v5/setup-check.json": {
+      "bytes": 4967,
+      "sha256": "c198ca1ae1824ef07a3f987ece595a1421787d9f3ba000b14586343d87591115"
+    },
+    "experiments/revision_v5/summarize.py": {
+      "bytes": 7819,
+      "sha256": "11d1e7186cce8c55878937eda40f7bf42943da4dfa2bc0cdb0beba01552bd659"
+    },
+    "experiments/revision_v5/summary.json": {
+      "bytes": 37621,
+      "sha256": "528dec42681109e81b25c6e95e577509767f76b025ee22e919874a731bc65ad7"
+    },
+    "experiments/revision_v5/verification-v5.json": {
+      "bytes": 3768,
+      "sha256": "758f9032e06e83d3d3bac3cffdc910a52e81de1178089525a404f55b4b8d8604"
+    },
+    "experiments/revision_v5/verify_results_v5.py": {
+      "bytes": 4929,
+      "sha256": "130a026e3937132eba5cc897561592094a1f8bf21c7374bb7293956b108ff657"
+    },
+    "experiments/revision_v5/verify_setup.py": {
+      "bytes": 5377,
+      "sha256": "31694b2deb27556a6dde0a2a51ca63b88ffc2f7cc44813744e0bacbb5f38300d"
+    },
+    "experiments/revision_v6/figure-audit.json": {
+      "bytes": 1563,
+      "sha256": "f2d247babc5bea8de92a6ac224d134349e66b948150759b4df7f11aebf35f201"
+    },
+    "experiments/revision_v6/make_figures.py": {
+      "bytes": 17003,
+      "sha256": "c9c16bd4fb559d0cae6c89ffbc2545e17ce7f1c7dd89ba25a52f51d5689ad681"
+    },
+    "experiments/revision_v6/README.txt": {
+      "bytes": 1915,
+      "sha256": "f4655ee06464bd3c45ed5be110c5438531eef7822257e894750c0c094e7814c4"
+    },
+    "experiments/revision_v6/v5-reference-hashes.json": {
+      "bytes": 190860,
+      "sha256": "e154e279d340bed0ae5a5ab89855da37364bec541b3254b15faf3327ce0f5369"
+    },
+    "experiments/revision_v6/verify_proofs.py": {
+      "bytes": 3061,
+      "sha256": "be71e98de5c1cb0ef95085fad78baa080aa7316f707a1157dd7e5d64bbee75f8"
+    },
+    "experiments/revision_v6/verify_tables.py": {
+      "bytes": 561,
+      "sha256": "6d3dd462a0b4cbf6dfbd9397806d9b633580790979a41ae67b2d8ad32cf66d4c"
     },
     "experiments/revision_v7/adaptive_mesh.py": {
       "bytes": 9395,
@@ -2868,9 +3032,357 @@
       "bytes": 2754,
       "sha256": "0807bac2e2eddbc2b78f9a6eaa0bbf3889c23eabcb038bed6c504bb584e779a6"
     },
+    "experiments/run_benchmark.py": {
+      "bytes": 12938,
+      "sha256": "5d1281bf7ca894294a5dbd5c00131d4a6c6d0943ec8d5b43a71e95fbec2e96f3"
+    },
+    "experiments/run_suite.py": {
+      "bytes": 1487,
+      "sha256": "63d1f3096a9f73cc5b906953e827f7b00eb32817c04cad9707ae9e74dde99875"
+    },
+    "experiments/SHA256SUMS.json": {
+      "bytes": 52681,
+      "sha256": "47d5b573a1c74b81dabcf0b5985a83b2edf1efb0c8e0b692e227d894ba343bd2"
+    },
+    "experiments/source/CommonParking/+cp/AmplRuntime.m": {
+      "bytes": 690,
+      "sha256": "ff2e5aae640cd009279cbe097b2e353f80cc11502ddfa11f8630e85ef1187689"
+    },
+    "experiments/source/CommonParking/+cp/ArcPose.m": {
+      "bytes": 992,
+      "sha256": "da46a4cb4c345ca73c8e1d1d85192d3c1df427351331b5c812fa9f67baf8e479"
+    },
+    "experiments/source/CommonParking/+cp/BarycentricInterpolate.m": {
+      "bytes": 537,
+      "sha256": "24cbb95ca64d6f83e5bebe330040d5159e06d80a71ebe7a96632e7b38416bdd0"
+    },
+    "experiments/source/CommonParking/+cp/BoxObstacleDistance.m": {
+      "bytes": 1891,
+      "sha256": "88e7e9880f45af2c5f66e054af362a917d81533527187308adfd4e0071d8327e"
+    },
+    "experiments/source/CommonParking/+cp/CoveringDiscs.m": {
+      "bytes": 517,
+      "sha256": "14e120db24e6d9c9d567bc0a23bb863e784506f24e9f1f895e44db806577f866"
+    },
+    "experiments/source/CommonParking/+cp/DiscCorridors.m": {
+      "bytes": 1557,
+      "sha256": "e3d70d9b4c09feec17ac8ab403ef59bf2ec14ca1fcbcf4fbbd0432e8a248a067"
+    },
+    "experiments/source/CommonParking/+cp/EmptyResult.m": {
+      "bytes": 513,
+      "sha256": "2b4bad8c6307d0e0eeefbf6e002455589a0e7f8f9b882c23fa55a405a5900bc2"
+    },
+    "experiments/source/CommonParking/+cp/LegendreLobatto.m": {
+      "bytes": 694,
+      "sha256": "5cfe308acd0e288bc8bddae3d7d22a710eb38b6072ab24db5bc8e762f230a846"
+    },
+    "experiments/source/CommonParking/+cp/PathFromArcs.m": {
+      "bytes": 952,
+      "sha256": "14b6de7caa5eb465c7a4f81864f7ad7babbdbff28663adf0ab55060e01606f57"
+    },
+    "experiments/source/CommonParking/+cp/Radau3.m": {
+      "bytes": 505,
+      "sha256": "7d0358990329c60bb152ff1f323351a4c08b54b2a344fa91223e02e237a22c93"
+    },
+    "experiments/source/CommonParking/+cp/RunAmpl.m": {
+      "bytes": 1388,
+      "sha256": "f7f5e6fc439a7f90ef898eb10423cba75506604a2b1800e32025d891f8664437"
+    },
+    "experiments/source/CommonParking/+cp/RuntimeDirectory.m": {
+      "bytes": 288,
+      "sha256": "d6cd060db2225bdb309ecac56e67ca32f9801eb0f26cea445fa0fe41b6983601"
+    },
+    "experiments/source/CommonParking/+cp/SolveCase.m": {
+      "bytes": 4219,
+      "sha256": "e441cd0d40a3616b560d2301318d2858593dcf4f9f6eec445fce49ab1d6079d4"
+    },
+    "experiments/source/CommonParking/BenchmarkConfig.m": {
+      "bytes": 1670,
+      "sha256": "dbd6bbd4dbfae66f7de5860a5351d1f111c30425f88d699f9f8cdebd29688eea"
+    },
+    "experiments/source/CommonParking/cases/Case01.mat": {
+      "bytes": 1328,
+      "sha256": "5bd0b4718e492be5814355d7dca1a213c7b6fb6ee2556b2a0fd91cb02c133ab2"
+    },
+    "experiments/source/CommonParking/cases/Case02.mat": {
+      "bytes": 1335,
+      "sha256": "691acc11a334b826f3909c32b251d7ad3d813f3fe78ef46c92a24a5e6e156ffb"
+    },
+    "experiments/source/CommonParking/cases/Case03.mat": {
+      "bytes": 1323,
+      "sha256": "f535adac85d712bd6b6e9de03bf604c2282a3154291718e50522b223b911f1e1"
+    },
+    "experiments/source/CommonParking/cases/Case04.mat": {
+      "bytes": 1403,
+      "sha256": "7b17214f38c23350b63c567a2993a86fb2d37effd209c9dc3199f5301145c60b"
+    },
+    "experiments/source/CommonParking/cases/Case05.mat": {
+      "bytes": 1412,
+      "sha256": "470ba11bc409a7c14ab8306bcd5224735620547c3936346aa678e48421511cd5"
+    },
+    "experiments/source/CommonParking/cases/Case06.mat": {
+      "bytes": 1525,
+      "sha256": "a604291cd619b3caacb81e732bfb9aac743e1625c4fcf09414eda28dde0e9826"
+    },
+    "experiments/source/CommonParking/cases/Case07.mat": {
+      "bytes": 1615,
+      "sha256": "659f36958329be468a06012209f46a599ec7de024515ec982ebdb2b87a9ba5c6"
+    },
+    "experiments/source/CommonParking/cases/Case08.mat": {
+      "bytes": 1613,
+      "sha256": "27d2875186dc7e688555c8cd5fc22b4e362b98eb8547c3ac9849768426f879ba"
+    },
+    "experiments/source/CommonParking/cases/Case09.mat": {
+      "bytes": 1554,
+      "sha256": "9dd213467e81a6502b743053b73644ef783df3df6b73b5873c4d0cc5be16a7b6"
+    },
+    "experiments/source/CommonParking/cases/Case10.mat": {
+      "bytes": 1509,
+      "sha256": "17027713f51813fa51effcfaea448a79755287ced07b2f20c139f0e91f160f1a"
+    },
+    "experiments/source/CommonParking/cases/Case11.mat": {
+      "bytes": 1505,
+      "sha256": "359f510318fc373f3ef79805939778e7a8324b7434b9d9e398b3fe59e2aaf712"
+    },
+    "experiments/source/CommonParking/cases/Case12.mat": {
+      "bytes": 1612,
+      "sha256": "2eac0e1b0848aeafca08e65f5660148ff538352beda8d883c99a1aef970cd043"
+    },
+    "experiments/source/CommonParking/cases/CaseCatalog.csv": {
+      "bytes": 2763,
+      "sha256": "202c03e08b40debb2e32299113b05b8615118959f821b5f0edc7767710bc6ddb"
+    },
+    "experiments/source/CommonParking/cases/SHA256.json": {
+      "bytes": 1023,
+      "sha256": "c37ccfe1a201feffb9c077a1a0cda5c3bc6b37aa3017f884f1a0ed7ed8a901d9"
+    },
+    "experiments/source/CommonParking/common/+parking/BiarcLift.m": {
+      "bytes": 1566,
+      "sha256": "bb76a4e3149f53e9c8e6f4141252027de9a80c3670edb16e5ccda8d3bb88c7f6"
+    },
+    "experiments/source/CommonParking/common/+parking/CheckCase.m": {
+      "bytes": 1472,
+      "sha256": "12dc754eccbf9fc202300d09adb8f505c908cf1eed003f37efabfe1c0f9e6917"
+    },
+    "experiments/source/CommonParking/common/+parking/CuspEvents.m": {
+      "bytes": 323,
+      "sha256": "6ad7b05ab030a4d0d2d885d9c8bba851187df584dce124cd9d10242454aa47e7"
+    },
+    "experiments/source/CommonParking/common/+parking/FootprintClearance.m": {
+      "bytes": 1135,
+      "sha256": "a57946c19b6fd12b9b0a114109af4aaa51e6cab29d264c9c3fdac4b5cae644a5"
+    },
+    "experiments/source/CommonParking/common/+parking/GridHeuristic.m": {
+      "bytes": 1790,
+      "sha256": "c805cc61935a97cc1158593b4d769129fd41d3c86d6d53ebb7b9ddbf2b4884ec"
+    },
+    "experiments/source/CommonParking/common/+parking/IntegratePrimitive.m": {
+      "bytes": 360,
+      "sha256": "6632785c933530481dab3d6fd850b3d4533806f31bc8f813c5e8fd3ccfc74a34"
+    },
+    "experiments/source/CommonParking/common/+parking/NearestObstacle.m": {
+      "bytes": 840,
+      "sha256": "f23d529979cf65224d1a5a238984fefd2754ceb124ab697c236741c1143daf04"
+    },
+    "experiments/source/CommonParking/common/+parking/Options.m": {
+      "bytes": 155,
+      "sha256": "cba2858656d7d9876f5725f607d8dcfbb6883a6263d0cecf1048f9a582cc7a86"
+    },
+    "experiments/source/CommonParking/common/+parking/PlotCase.m": {
+      "bytes": 2907,
+      "sha256": "bf874552848a7bb5f09f65742c39bebfa21077949fe8a89357a7649ac4dcdb74"
+    },
+    "experiments/source/CommonParking/common/+parking/PolygonData.m": {
+      "bytes": 651,
+      "sha256": "d06c39e0e6c3cb1d892bc24f82c22ddfbc0ff3877d92dc2f21166a3747d0cb19"
+    },
+    "experiments/source/CommonParking/common/+parking/ResampleByGear.m": {
+      "bytes": 768,
+      "sha256": "8e09cd38ad9b7ddc95770f4efc42800e850e79d8988f2f3d684cc120e805c811"
+    },
+    "experiments/source/CommonParking/common/+parking/Root.m": {
+      "bytes": 89,
+      "sha256": "b0f3ce93b05c9cbe56eae8361f236d8120ff70f3f9584354a6046b17c4a3c6c8"
+    },
+    "experiments/source/CommonParking/common/+parking/SamplePrimitives.m": {
+      "bytes": 518,
+      "sha256": "2d2dea5d29a666e670afdc743e67efcf3f90ef98230753a50f47fd7529e33906"
+    },
+    "experiments/source/CommonParking/common/+parking/SearchHybridAStar.m": {
+      "bytes": 6747,
+      "sha256": "7e0598a1ee60b46969f0e83b48ea5d3c4aa177e891583f78cbd9e29262971e62"
+    },
+    "experiments/source/CommonParking/common/+parking/SlicePrimitives.m": {
+      "bytes": 317,
+      "sha256": "3cae41403fbbcfbd7a78c8146a102a7ebdb9ffe3567dadca9913d6dca475539f"
+    },
+    "experiments/source/CommonParking/common/+parking/ValidateSolution.m": {
+      "bytes": 1845,
+      "sha256": "e019c9af73d5bb4c4b4b66e4072ac6bdd7dfdca5a86d48aab2b1e6e76348a8b7"
+    },
+    "experiments/source/CommonParking/common/+parking/VehicleParameters.m": {
+      "bytes": 151,
+      "sha256": "ea4be89b6221c2ccad97969c25b84be8af3bd568ec18c71ad2b166bbd63aaddb"
+    },
+    "experiments/source/CommonParking/common/+parking/VehiclePolygon.m": {
+      "bytes": 291,
+      "sha256": "d20c46a95941b921dae4281ecc153d5a639e32b85a978653cb6ed49af08a428c"
+    },
+    "experiments/source/CommonParking/common/+parking/VoronoiField.m": {
+      "bytes": 752,
+      "sha256": "da3751e8da2747a24121470f3c5e0afaf609792bab7a16a1b9e30a1490a1eec0"
+    },
+    "experiments/source/CommonParking/evaluation/+cpe/ExecuteControls.m": {
+      "bytes": 2592,
+      "sha256": "ade8a6531e657a5390fa27d93bf6948dd5248f6fd78bc2ca8c302ec83b8f1ae7"
+    },
+    "experiments/source/CommonParking/evaluation/+cpe/LongitudinalAt.m": {
+      "bytes": 369,
+      "sha256": "d43b8e45bb4d06fac8fc9870ec533b7ab692ccc72a2bfbf388cb55d61814371f"
+    },
+    "experiments/source/CommonParking/evaluation/+cpe/LongitudinalProfile.m": {
+      "bytes": 449,
+      "sha256": "9ae53104e429600357590b0572f34b8a31a56f1d7c43b1c7bb7656cf90269543"
+    },
+    "experiments/source/CommonParking/evaluation/+cpe/MakeReference.m": {
+      "bytes": 1141,
+      "sha256": "de86ce7ce8731843cbd37eeddd5c97b9d64dc602bf473fcdcf10dd97f476825e"
+    },
+    "experiments/source/CommonParking/evaluation/+cpe/Metrics.m": {
+      "bytes": 1019,
+      "sha256": "b17262c476e59e48c022c8684c656661c07c37e8db793038090930358cfd134f"
+    },
+    "experiments/source/CommonParking/evaluation/+cpe/ReferenceAt.m": {
+      "bytes": 1438,
+      "sha256": "cffd68435e5126444c63d6bdfd5a7d99ca2a09ecd8b2bacceb9bdff365ebb43d"
+    },
+    "experiments/source/CommonParking/evaluation/+cpe/SolveTracker.m": {
+      "bytes": 3509,
+      "sha256": "aebc496d54838d90679e26b2259dc0e093216d8f2e22fe42c73e216ee908fe8e"
+    },
+    "experiments/source/CommonParking/evaluation/+cpe/ValidateResult.m": {
+      "bytes": 5247,
+      "sha256": "6b4eb6a9ec00e788e6ed5afbfbce82ef70ab4355a036a74a22d89bf932847c3b"
+    },
+    "experiments/source/CommonParking/evaluation/README.md": {
+      "bytes": 9642,
+      "sha256": "427dfe1e9795c74f943bbf12f0aca3328af59b78b8e42cee05ac3087b3e9d157"
+    },
+    "experiments/source/CommonParking/evaluation/tracker.mod": {
+      "bytes": 2191,
+      "sha256": "14a1c5af612746f45385255a102bb6fdbfb90a229b820747a7104d55be814353"
+    },
+    "experiments/source/CommonParking/LICENSE": {
+      "bytes": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    "experiments/source/CommonParking/LoadCase.m": {
+      "bytes": 398,
+      "sha256": "c34e0f394504bbde2f7298bb959a18f6f5e58a5e2dddc62bfa20e3686fa558d8"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/BoundaryDistance.m": {
+      "bytes": 402,
+      "sha256": "2fb96507e94f407ceabd72d712148be8bacf6bac5f900404c2acb2a5129eaae5"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/CanonicalConnection.m": {
+      "bytes": 1073,
+      "sha256": "050afc69792406edbc9ac8278992ed4a3741b1e358dc3606aa90a7b74a837f7c"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/Config.m": {
+      "bytes": 771,
+      "sha256": "3f73d1dad55244217301928382115a5a0ef2c15ed00416d1c340b334d54edaca"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/ConjugateGradient.m": {
+      "bytes": 1356,
+      "sha256": "26935218a03985e0a39bb5fd8ecffb8777c7fcfc2b3c3b3ddf15ff3e4cf52c66"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/FootprintFree.m": {
+      "bytes": 852,
+      "sha256": "88b12718ef555eca9daa0887a4345c536decb47bf1cbd97692bf84a086d4183d"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/Geometry.m": {
+      "bytes": 465,
+      "sha256": "f5d095351c77e82aae6a4bdb761803c090fa91adda12aa6940d5f2a009cb9faa"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/Objective.m": {
+      "bytes": 2344,
+      "sha256": "20b3ee533ce218d67b9ff151529e9a29ac74bb577b29eb00e2def5b994e56bbc"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/Plan.m": {
+      "bytes": 1502,
+      "sha256": "f1c7902aea47d1cf8ca0228d473a2412bee0b14318d55ce60ca68399e1ad4216"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/PrepareGeometry.m": {
+      "bytes": 690,
+      "sha256": "5678c809e475afe33fec0f2bc94393e75336f15ba3d93ff346947338a383da8f"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/ReedsSheppCandidates.m": {
+      "bytes": 3566,
+      "sha256": "95e31550500f6124a7eb22c5fb675d0cdf2194a87a93eaeacd8cf1cdf6e99579"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/ReedsSheppDistance.m": {
+      "bytes": 2974,
+      "sha256": "0067cf4d057c249a8dacf70a91cbf1fe55f79f82f90567b408137a571a4e3330"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/Smooth.m": {
+      "bytes": 4216,
+      "sha256": "4d813c33d975ca28825fd747976e4c5996e927011b5e99facdf1f7ba90ca7067"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/+hacg/VoronoiField.m": {
+      "bytes": 160,
+      "sha256": "a55e864e2ecdd8e839c49c76f4490a16c43465b8c388f04710db1cb160c9b20f"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/licenses/3rd-party-licenses.txt": {
+      "bytes": 4639,
+      "sha256": "194e55e8b858dec9d3cadf1a325edc352a133346589a0fb4d0668c14b5cedc12"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/licenses/LICENSE": {
+      "bytes": 11559,
+      "sha256": "24a545416d3e9a495d12392369230cfe99b7c7fa1bd4ce4553b1db9cc4026877"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/licenses/NOTICE": {
+      "bytes": 986,
+      "sha256": "b43513cded5443afce32f8af36d6fd90038370fce01724ba00ebb9ba2db937e0"
+    },
+    "experiments/source/CommonParking/planners/HA_CG/README.md": {
+      "bytes": 7027,
+      "sha256": "98c196c106272110cfe17c06c2e5c1c27f489996100ce386be1ec3ccfafb7a41"
+    },
+    "experiments/source/CommonParking/README.md": {
+      "bytes": 125587,
+      "sha256": "99527420b466a8797f6aafd758047ac7b0f8ffee5ea6a634507388e457a6360a"
+    },
+    "experiments/source/CommonParking/SetupCommonParking.m": {
+      "bytes": 788,
+      "sha256": "a67808af8bfe491eaded9470caacd9e6d8950a68c20dd17dcdc78a21b4d339c1"
+    },
+    "experiments/suite-status.json": {
+      "bytes": 10490,
+      "sha256": "197de0b8779aadf6125974f725972c7cb50bb4b15cf3336684aeb55712c78f8c"
+    },
+    "experiments/summary.json": {
+      "bytes": 2367,
+      "sha256": "1661a082250c020c6d82e1d33fd6f6c88217b5355e4bebb922c66e450e6d8c84"
+    },
+    "experiments/verification.json": {
+      "bytes": 966,
+      "sha256": "0b47635a46be59abaddcdbc454894fd324a7ede3ebdd1a9d2da4e417504d5906"
+    },
     "experiments/verify_release.py": {
       "bytes": 1098,
       "sha256": "b298b687b3317f521625c6fae5f12d5e92132803810b7b860dd46eb5a1363900"
+    },
+    "experiments/verify_results.py": {
+      "bytes": 2700,
+      "sha256": "3ad2f2f4d7db443f99d444a8e05a0f558348109fd787bd8dbcdc551bbca426ed"
+    },
+    "manuscript/audit/monotonicity-v6.json": {
+      "bytes": 704,
+      "sha256": "f61e347825d2103f0ca91ba3904bcad55ecddb86637a2425005cc9ba13206f1b"
+    },
+    "manuscript/audit/tables-v6.json": {
+      "bytes": 220,
+      "sha256": "28f0705acba9d6776d2e9c308d8bd8e1359ad8711dd93621d3cd2aebc0d5fe76"
     },
     "manuscript/figures/collision-details-v7.pdf": {
       "bytes": 79485,
@@ -2912,21 +3424,57 @@
       "bytes": 658001,
       "sha256": "5637703a7c0f8d29125b133ea6654a7928e1ce3adf5c8e05ee3ffe5fb19646b0"
     },
+    "manuscript/tables/beta-v5.tex": {
+      "bytes": 700,
+      "sha256": "fd88b033b3e236d15fa9beba32eb3e4a597eea55d84bd40676b9f178d7a62199"
+    },
+    "manuscript/tables/beta-v6.tex": {
+      "bytes": 769,
+      "sha256": "d75125134261b697a24daa8f73a9fbac4fe01f37a7b1462d85e6102cd1622fbf"
+    },
     "manuscript/tables/beta-v7.tex": {
       "bytes": 652,
       "sha256": "699c660097745af6eb9ead40c0bdf924d8ced7c19061782cf2e0f8b1601ac492"
+    },
+    "manuscript/tables/cases-v5.tex": {
+      "bytes": 850,
+      "sha256": "3bd90c03048700d377ccd3d55d90704dd20ed5769708716d6ada0ccc8800defc"
     },
     "manuscript/tables/cases-v7.tex": {
       "bytes": 948,
       "sha256": "0aeb47c643cdfcddb11bdcd739b1289e3a9000265f286a49b7bf837cd66fc899"
     },
+    "manuscript/tables/comparison-v5.tex": {
+      "bytes": 1250,
+      "sha256": "e62fdcf729af50379b48287fc99a34f3c3ae4c324c3dd6a2facb18194307e519"
+    },
+    "manuscript/tables/comparison-v6.tex": {
+      "bytes": 1308,
+      "sha256": "650cf41b9fd76b99f7417cc91db1a0b0f76e1ae8278a5548b16480ccb1c6dfd2"
+    },
     "manuscript/tables/comparison-v7.tex": {
       "bytes": 1426,
       "sha256": "4235674c0d19c6ef3c95fb0a654e5fb7d73ff1139feaad22b13b490461471e4a"
     },
+    "manuscript/tables/refinement-discussion-v5.tex": {
+      "bytes": 654,
+      "sha256": "ce1680c932bc8ccae8032f7ce29f130925e1d8fec28bb8cb7a834a565b8781bb"
+    },
+    "manuscript/tables/refinement-discussion-v6.tex": {
+      "bytes": 700,
+      "sha256": "c6465712f1f818dd10532ede78afa1ee9951d160e09ff0c572cc000d6ea4fd56"
+    },
     "manuscript/tables/refinement-discussion-v7.tex": {
       "bytes": 562,
       "sha256": "7d486bba1301f281c24641243e1fde6b7c26b9d44401878543a4be93a15b580a"
+    },
+    "manuscript/tables/refinement-v5.tex": {
+      "bytes": 849,
+      "sha256": "e13bd07ec2c3ff17071f1c2a5acbb824aedeb8c894183d277ea13e23d7e81165"
+    },
+    "manuscript/tables/refinement-v6.tex": {
+      "bytes": 922,
+      "sha256": "061018ccaa61cbd9cd8e4e54aa35361a2540db392f12f8a6fbcc09c0ed25b422"
     },
     "manuscript/tables/refinement-v7.tex": {
       "bytes": 824,
@@ -2935,6 +3483,10 @@
     "manuscript/tables/settings-v7.tex": {
       "bytes": 1243,
       "sha256": "b5a297901de4ded84f0d05d46b00d1d0e6f5a778a9bf7f142d809dd7bfd1c1ad"
+    },
+    "manuscript/tools/build_figures_and_check.py": {
+      "bytes": 6750,
+      "sha256": "69a8d823d2838b85a10061b924cc598d5ef8e05685395977807360579db031e1"
     }
   }
 }
