@@ -13,8 +13,8 @@
       "sha256": "8f2d2092d76a0c9f2e0dcc2931789d5366b496ba3ce95298a2c07daacb861d95"
     },
     "experiments/experiment-index.json": {
-      "bytes": 3570,
-      "sha256": "061e1cb95902942a55fdc7ead58a2824fe9b2835d728cbf75d327b5ec0ac4ce7"
+      "bytes": 3743,
+      "sha256": "6df41f7ad41599298281023f074d4d4d8797e7b6442d928a899f701a0ab96350"
     },
     "experiments/fetch_benchmark.py": {
       "bytes": 1101,
@@ -116,6 +116,490 @@
       "bytes": 60417,
       "sha256": "56e93fa487f8e23908e99b7784021a2945232ed340040f6d3729b91d0bf4dcbd"
     },
+    "experiments/logs/body-n100-p0.00-case01.log": {
+      "bytes": 184286,
+      "sha256": "ff35b885e109bd43d26efc3c1414af5bfd5674ff74b35206e989413a57cd3fdf"
+    },
+    "experiments/logs/body-n100-p0.00-case02.log": {
+      "bytes": 29935,
+      "sha256": "b97bc4d704c004f008c910d91fd457c406cd086d6f076e06f27dc6d248275fdc"
+    },
+    "experiments/logs/body-n100-p0.00-case03.log": {
+      "bytes": 35502,
+      "sha256": "1a3fac15116f94e7abc83839d7629873d821a132b0e973d82f1b0a3f1bfd9043"
+    },
+    "experiments/logs/body-n100-p0.00-case04.log": {
+      "bytes": 25834,
+      "sha256": "eac2e28841ec4b3ffac8d2b237de52c397f1b4e82a21f90fc658a0cd92073a23"
+    },
+    "experiments/logs/body-n100-p0.00-case05.log": {
+      "bytes": 190786,
+      "sha256": "4886a022b88042dae0b6a885dc0197c2c1772b83a31fc4dc96a3ca17ab81d46a"
+    },
+    "experiments/logs/body-n100-p0.00-case06.log": {
+      "bytes": 29438,
+      "sha256": "521c431884c78d3e753ea02a02292a5c0e7192e51047943658d2e69d5f8822dc"
+    },
+    "experiments/logs/body-n100-p0.00-case07.log": {
+      "bytes": 47417,
+      "sha256": "31f373d42b5024adb0109e9f1caf8ae83b7029ace8e710a77fa6f9af48f21479"
+    },
+    "experiments/logs/body-n100-p0.00-case08.log": {
+      "bytes": 44122,
+      "sha256": "dac99aa90ab8e2db8e0bc363abc6c8fbc6062adeca4b25c81ab788ecfb4e369b"
+    },
+    "experiments/logs/body-n100-p0.00-case09.log": {
+      "bytes": 26778,
+      "sha256": "95c57ea587ec0e4ab8602b8145e0efa9474970a77f11695ec29e4cf020b2451e"
+    },
+    "experiments/logs/body-n100-p0.00-case10.log": {
+      "bytes": 19723,
+      "sha256": "8e5d090b483ec9dc4b3f922474f3c76d8c8405e9ab54551a4422b8e627eae7ce"
+    },
+    "experiments/logs/body-n100-p0.00-case11.log": {
+      "bytes": 100036,
+      "sha256": "bba877ac9b9638a9bc07224813728d8ec9b0db4a3e6c27052f998dceede8f75c"
+    },
+    "experiments/logs/body-n100-p0.00-case12.log": {
+      "bytes": 12297,
+      "sha256": "c1f66f0cd6a67632f36b4786053bc77d7ae2ff821ba2500778ad6b07f29e4f28"
+    },
+    "experiments/logs/body-n100-p0.30-case01.log": {
+      "bytes": 14006,
+      "sha256": "98657767225dacbd18d925a3739923807a75da4beebf17216b5c6be5effb622c"
+    },
+    "experiments/logs/body-n100-p0.30-case02.log": {
+      "bytes": 18573,
+      "sha256": "d06b17eb7dc4e75c682133195a310b050bcce97c2099a7fdad37614a283343d1"
+    },
+    "experiments/logs/body-n100-p0.30-case03.log": {
+      "bytes": 11870,
+      "sha256": "a569a6d10e46e5a57288d274ce5443e128bedcfa3da32e36bdde8921f83ac12e"
+    },
+    "experiments/logs/body-n100-p0.30-case04.log": {
+      "bytes": 18919,
+      "sha256": "88fb47134e0cd8b6ed362de178b43c4ec7a6a932192876bbd48ccd9c85aa93c7"
+    },
+    "experiments/logs/body-n100-p0.30-case05.log": {
+      "bytes": 49013,
+      "sha256": "77e65765018af536524c3ad06ee743b8d9d456debbe381386f52bf50b05ababe"
+    },
+    "experiments/logs/body-n100-p0.30-case06.log": {
+      "bytes": 49268,
+      "sha256": "ded0fce32a2a42ddbaf1d851edf14e567f44d1020a8428c056949adecd843f3d"
+    },
+    "experiments/logs/body-n100-p0.30-case07.log": {
+      "bytes": 22193,
+      "sha256": "cbc7301b10d9188b89eac8659ca57a2d4919dfd1bb43ceb8d3a67e9e77996a08"
+    },
+    "experiments/logs/body-n100-p0.30-case08.log": {
+      "bytes": 188279,
+      "sha256": "d040903c51e7fa8ac375d4ab5c3d8436e8d1024c32d2b72bf01621316cd2ebb2"
+    },
+    "experiments/logs/body-n100-p0.30-case09.log": {
+      "bytes": 23659,
+      "sha256": "4b5ec8888c2d1be795837f64be4968b561f2e5312f97b3d4589f9a66ec8dce0f"
+    },
+    "experiments/logs/body-n100-p0.30-case10.log": {
+      "bytes": 12174,
+      "sha256": "84d4363827bf845c79231b34eb1b5e12b6645e38a2dbb6a1089f33508d970573"
+    },
+    "experiments/logs/body-n100-p0.30-case11.log": {
+      "bytes": 14949,
+      "sha256": "cf254473ef06d003974e524d3cb28d7dc1dba35d06642504bbba82be68cf73bd"
+    },
+    "experiments/logs/body-n100-p0.30-case12.log": {
+      "bytes": 44971,
+      "sha256": "e2cf503f5cf0c35921e9c8e142c9ef69821b90aa8794c320abacfb4b82cde468"
+    },
+    "experiments/logs/body-n50-p0.00-case01.log": {
+      "bytes": 305033,
+      "sha256": "eaccf5f8f10b7dcacc27293c897f3a39de22104e4858b218ea3f92a6579d450c"
+    },
+    "experiments/logs/body-n50-p0.00-case02.log": {
+      "bytes": 280674,
+      "sha256": "842a3a835699bfb3bb531954fd9eddbb370883c37e24d1aaedb51648a24a78db"
+    },
+    "experiments/logs/body-n50-p0.00-case03.log": {
+      "bytes": 37687,
+      "sha256": "565c1e53663661c1a311f0b16e9d142d43d0ac1aac07cb2d8bd4f318b93f51be"
+    },
+    "experiments/logs/body-n50-p0.00-case04.log": {
+      "bytes": 34813,
+      "sha256": "a43dc56d09951a7d4c7275bced74519d2216aa016c39f667861ad11b98f46c92"
+    },
+    "experiments/logs/body-n50-p0.00-case05.log": {
+      "bytes": 23254,
+      "sha256": "e5930ceba0cd4d6fecde6cee3506fd3244b52bafaa5462e7f95b73ea07e6e65a"
+    },
+    "experiments/logs/body-n50-p0.00-case06.log": {
+      "bytes": 21822,
+      "sha256": "fd0b8ddb90ce8ad631304755eb04006214dd828ed9b3af90dbfb0acdf1344dfe"
+    },
+    "experiments/logs/body-n50-p0.00-case07.log": {
+      "bytes": 9307,
+      "sha256": "4649106d707ba0e375920f1d30004410cdef29adef8bbe0b89cb934a7d589973"
+    },
+    "experiments/logs/body-n50-p0.00-case08.log": {
+      "bytes": 21160,
+      "sha256": "3ad01a03173917dd35c9eec901e718697a1ae43fa332d1a05ce64f42db6902d7"
+    },
+    "experiments/logs/body-n50-p0.00-case09.log": {
+      "bytes": 29426,
+      "sha256": "a3cf5a274dcac0634bd45eb3089d83ac0c0d8d99ff594abe24fae996b3f65a7c"
+    },
+    "experiments/logs/body-n50-p0.00-case10.log": {
+      "bytes": 7555,
+      "sha256": "b6bda5f2f51457ba2ee1fa4d80277ff51799e5b1aa7bb9adc24799929476a51c"
+    },
+    "experiments/logs/body-n50-p0.00-case11.log": {
+      "bytes": 9350,
+      "sha256": "196ea35a02fb8d8efa6b75f4e7884c3ccb4ac3ceeb2b054e698e606aa9033b8c"
+    },
+    "experiments/logs/body-n50-p0.00-case12.log": {
+      "bytes": 9833,
+      "sha256": "0c0ebb83e3db3ae44dd99600a58d75a65b2608090c922c149b84637126add227"
+    },
+    "experiments/logs/hybrid-astar.log": {
+      "bytes": 1340,
+      "sha256": "cc2e55b6445f0306a994f12f480d45ae17ff56ab1285c8d0eb456b84d14c7f11"
+    },
+    "experiments/logs/obca-n100-p0.00-case01.log": {
+      "bytes": 49057,
+      "sha256": "304cbe13b707ab1f95b7843dd3f10cb6e5a0c897ad94eeba67a27fc72e862c5a"
+    },
+    "experiments/logs/obca-n100-p0.00-case02.log": {
+      "bytes": 31218,
+      "sha256": "a12c832c20e074eeecd208b741b5aec88e19fbddd49e93b01d653541c52f1292"
+    },
+    "experiments/logs/obca-n100-p0.00-case03.log": {
+      "bytes": 9635,
+      "sha256": "551a5b388a399dbb17c54b770168bd8e46fe55d5feb906bfd0cade24c9c5332b"
+    },
+    "experiments/logs/obca-n100-p0.00-case04.log": {
+      "bytes": 25568,
+      "sha256": "288f24b409b171cba8a4e17b0df6c1915c23e3a11c80d0e742005ee1e71e5dc6"
+    },
+    "experiments/logs/obca-n100-p0.00-case05.log": {
+      "bytes": 20627,
+      "sha256": "312f0012f02457649841026a6daf67ffb79c303f62c5b8befbb3b0e76e099686"
+    },
+    "experiments/logs/obca-n100-p0.00-case06.log": {
+      "bytes": 24311,
+      "sha256": "7e7844fb6e6b579834c594389f766137705a14bb1c13c954454a047a6961acb6"
+    },
+    "experiments/logs/obca-n100-p0.00-case07.log": {
+      "bytes": 12510,
+      "sha256": "48ee2a7a6597efb6978ab5bdaaa7b10c7575407fd0c2b4ec65817de57689fa0c"
+    },
+    "experiments/logs/obca-n100-p0.00-case08.log": {
+      "bytes": 49396,
+      "sha256": "5903927c5cbee9f430137e3a6dbd47f12e518c2436a6e0bdf054cb0f8e2a3e55"
+    },
+    "experiments/logs/obca-n100-p0.00-case09.log": {
+      "bytes": 26910,
+      "sha256": "885f22e21911132929145bb185f90774b2b27bd63156b0560a5ad47e97a45100"
+    },
+    "experiments/logs/obca-n100-p0.00-case10.log": {
+      "bytes": 15108,
+      "sha256": "5576f9d55f2aa6090eaec568de9f44c990d7e9e1a4bb943f317f4c75cdd99a94"
+    },
+    "experiments/logs/obca-n100-p0.00-case11.log": {
+      "bytes": 34988,
+      "sha256": "87b065bddc441b48facce08b07d8dce8b607108ac2749b5d98835b4b96821199"
+    },
+    "experiments/logs/obca-n100-p0.00-case12.log": {
+      "bytes": 120357,
+      "sha256": "543e76460b8b4ee3c1e65d9872d0455a1cec2bd6343ba7290c6b2e9ecd541550"
+    },
+    "experiments/logs/obca-n100-p0.30-case01.log": {
+      "bytes": 30500,
+      "sha256": "8b4f5b8f01e8fffa460cfd8b9ff1d65e381adead0db9c61ef82bf8e93b9c3ef4"
+    },
+    "experiments/logs/obca-n100-p0.30-case02.log": {
+      "bytes": 298819,
+      "sha256": "20840eccf46041d85d5b32ad7f37d5a182ab96cf855f93378e673742b10508fb"
+    },
+    "experiments/logs/obca-n100-p0.30-case03.log": {
+      "bytes": 26832,
+      "sha256": "76afc44ba6632c95a55937b6185e9224eee4e4ca49f183e03df74f8bacfc220c"
+    },
+    "experiments/logs/obca-n100-p0.30-case04.log": {
+      "bytes": 26094,
+      "sha256": "765f8cb14378eb4f9c242353edf3642d90694f25ca7910be0d98c2ce397711a3"
+    },
+    "experiments/logs/obca-n100-p0.30-case05.log": {
+      "bytes": 48032,
+      "sha256": "db0c55819d043ae447921617c8fc80e5d960f553da59767cddb22aeef9f8d7c5"
+    },
+    "experiments/logs/obca-n100-p0.30-case06.log": {
+      "bytes": 14730,
+      "sha256": "a96d34ef87d17aa8bd8866830ae8a8e54241c3af85a67a7d164f0a3ff625d3b7"
+    },
+    "experiments/logs/obca-n100-p0.30-case07.log": {
+      "bytes": 12030,
+      "sha256": "3231a48a5676360310366ca5ab0d760ad8abb97978cfee6e40f2c3ee1477b812"
+    },
+    "experiments/logs/obca-n100-p0.30-case08.log": {
+      "bytes": 47772,
+      "sha256": "72ec3accdd1db9c52e39ae6c09fa79bd19b31ef3a9c17acd4bdb6b47fd22d1fe"
+    },
+    "experiments/logs/obca-n100-p0.30-case09.log": {
+      "bytes": 18612,
+      "sha256": "2879a465f8c5d0722510bbf686b8bd16cd21b44c27961ce0cf58b94e3250bf74"
+    },
+    "experiments/logs/obca-n100-p0.30-case10.log": {
+      "bytes": 12435,
+      "sha256": "d1ea5cd388010d69e53ddd3563a5610a03425020e10c4c94f0f9b618b6dca1ea"
+    },
+    "experiments/logs/obca-n100-p0.30-case11.log": {
+      "bytes": 7883,
+      "sha256": "42a02f0403059309af8c6fd569e1e00dffa6c3e9a001f50a12017c3ba2c24394"
+    },
+    "experiments/logs/obca-n100-p0.30-case12.log": {
+      "bytes": 12944,
+      "sha256": "205be4e21b0d312d55b7b7b86c91fc39e4eb2855279e641b3f886b6c68d54655"
+    },
+    "experiments/logs/obca-n50-p0.00-case01.log": {
+      "bytes": 16315,
+      "sha256": "6df8899666e8ae12001f5b7f2975e3ce095c1170d305c2115dc353f954b11513"
+    },
+    "experiments/logs/obca-n50-p0.00-case02.log": {
+      "bytes": 10345,
+      "sha256": "aff3ae506f0635eb3270e93bbafcb0c0e0e0a9c12dd6e1bce213cb39f36774be"
+    },
+    "experiments/logs/obca-n50-p0.00-case03.log": {
+      "bytes": 7635,
+      "sha256": "d40f8d48be5289051ebd3fe93900617541d13c4620cbf0c8e11ff5967404c62b"
+    },
+    "experiments/logs/obca-n50-p0.00-case04.log": {
+      "bytes": 9096,
+      "sha256": "1c46fb90aefaa7f757f67a7bc07eb6b43c91028c68a84649b7995a836865db1b"
+    },
+    "experiments/logs/obca-n50-p0.00-case05.log": {
+      "bytes": 13404,
+      "sha256": "1ed889e4342d43759339afb94428691fbec083ad016749f0ccdcad073c9cdaff"
+    },
+    "experiments/logs/obca-n50-p0.00-case06.log": {
+      "bytes": 15413,
+      "sha256": "4337b16c837df98c6f060249221d8f180baf15a28703eb73c29da8c0b341e134"
+    },
+    "experiments/logs/obca-n50-p0.00-case07.log": {
+      "bytes": 301589,
+      "sha256": "acbd27df522fdf5fe965633d5542af9dfb72c2c3e07310c74fe2d6d4916b61b9"
+    },
+    "experiments/logs/obca-n50-p0.00-case08.log": {
+      "bytes": 26058,
+      "sha256": "2665e9535d240195be04f40e223da6d6185526040cbc90f01df385134d522e71"
+    },
+    "experiments/logs/obca-n50-p0.00-case09.log": {
+      "bytes": 15166,
+      "sha256": "6b09eeac254074ec6d5568ff5378e32a165aca729b0ae2279e526d41ee8ef05c"
+    },
+    "experiments/logs/obca-n50-p0.00-case10.log": {
+      "bytes": 8456,
+      "sha256": "e842aac1a8cc48b1c778bd6d546a459e4944376e56f4107251b651989e5e52aa"
+    },
+    "experiments/logs/obca-n50-p0.00-case11.log": {
+      "bytes": 8969,
+      "sha256": "5fba0a6bb186510f43b8fbbe062f3af85c731d0b4d28d31c74bed1e7ce140622"
+    },
+    "experiments/logs/obca-n50-p0.00-case12.log": {
+      "bytes": 21079,
+      "sha256": "fa0324f563e3b3f0909795bff4578792cb44fedd325011abed366060033dd05d"
+    },
+    "experiments/logs/triangle-n100-p0.00-case01-eps1e-04.log": {
+      "bytes": 29256,
+      "sha256": "f8571309a89e7b1ad679585e34457607b429c16f1258a0809d51ef779c9a94dc"
+    },
+    "experiments/logs/triangle-n100-p0.00-case01.log": {
+      "bytes": 23414,
+      "sha256": "2c5f3e13c4fad871dc598e9d71c8adde89a49c034b6fb2c211d3f208d261fc99"
+    },
+    "experiments/logs/triangle-n100-p0.00-case02-eps1e-04.log": {
+      "bytes": 22372,
+      "sha256": "5fcf9a67805f1b4eb5b66649aa62fe85d8c9efc928cfeedaf811332dce8787c0"
+    },
+    "experiments/logs/triangle-n100-p0.00-case02.log": {
+      "bytes": 56296,
+      "sha256": "48a9e35a80905fdf4a9bc56acdf23e515b26b21dfa2c02eedf6095675a2432f7"
+    },
+    "experiments/logs/triangle-n100-p0.00-case03-eps1e-04.log": {
+      "bytes": 54608,
+      "sha256": "d382cd6264aa771d9fe7bf68dc52544fc0a75a30bb70a37d764ec5b35144cb92"
+    },
+    "experiments/logs/triangle-n100-p0.00-case03.log": {
+      "bytes": 124396,
+      "sha256": "0260a1f86784676f33bb56f46866d063597ef753c78392028a43b10d7aae3393"
+    },
+    "experiments/logs/triangle-n100-p0.00-case04-eps1e-04.log": {
+      "bytes": 13058,
+      "sha256": "e998bb52f6b6e6a79ead5bddd0100eff98fac2b94410c38c6a5ba74fc04f8ada"
+    },
+    "experiments/logs/triangle-n100-p0.00-case04.log": {
+      "bytes": 36601,
+      "sha256": "2ff1294c23663ef07bb0cfedf3d8428ec0081624c1cee218ecae068574e8496e"
+    },
+    "experiments/logs/triangle-n100-p0.00-case05-eps1e-04.log": {
+      "bytes": 28115,
+      "sha256": "3b96a3f32705c6ecf5faed23a8a19358c1dae6d248f7f0360e952863b5ad3656"
+    },
+    "experiments/logs/triangle-n100-p0.00-case05.log": {
+      "bytes": 46580,
+      "sha256": "9eb000a31ac410f202a8261a80f41c0273a3c946fb639adf9672a7c786589cc8"
+    },
+    "experiments/logs/triangle-n100-p0.00-case06-eps1e-04.log": {
+      "bytes": 51343,
+      "sha256": "72bbc62a07d2e43759c285fc88341393756df50a17182169ba4e8665908c30b8"
+    },
+    "experiments/logs/triangle-n100-p0.00-case06.log": {
+      "bytes": 39265,
+      "sha256": "3afcf1701565cbb45e165ee174f516f313ae1d16266da243f3004bbd9fb24eb2"
+    },
+    "experiments/logs/triangle-n100-p0.00-case07-eps1e-04.log": {
+      "bytes": 20784,
+      "sha256": "2130a6470704db06f0a9cab84de21a91d038cd720f6502c2886df3b9f6b56d61"
+    },
+    "experiments/logs/triangle-n100-p0.00-case07.log": {
+      "bytes": 132735,
+      "sha256": "51e61206580af51eb4a5e8f697906442c1073c4f51ecebdf6d1ec13a3fb97d50"
+    },
+    "experiments/logs/triangle-n100-p0.00-case08-eps1e-04.log": {
+      "bytes": 32902,
+      "sha256": "e9d8e3b06cbb74d8c38bb766b49e4c34528ff714b5206616fe8897f33a23600e"
+    },
+    "experiments/logs/triangle-n100-p0.00-case08.log": {
+      "bytes": 14437,
+      "sha256": "bf2f95948f23ed9cf826971b41688976d5b2303e3e92b808638f3c398bbafcf5"
+    },
+    "experiments/logs/triangle-n100-p0.00-case09-eps1e-04.log": {
+      "bytes": 51263,
+      "sha256": "6c08c31b2e6685b3d3a9103f62e265a7655343ddfab2f22ebe5ae2d3f505165e"
+    },
+    "experiments/logs/triangle-n100-p0.00-case09.log": {
+      "bytes": 24373,
+      "sha256": "d0dc11739e24240cb4b2745c3837e619eddd4da110cc3f12b398d02df79218dc"
+    },
+    "experiments/logs/triangle-n100-p0.00-case10-eps1e-04.log": {
+      "bytes": 12120,
+      "sha256": "346b12cfca61056a31182337fed803e4291229baa365fbbc281eb5bd8c3e5c35"
+    },
+    "experiments/logs/triangle-n100-p0.00-case10.log": {
+      "bytes": 14618,
+      "sha256": "3ace90bc704860a9529d43d4fb725a33823b972cbc09d9ee2b1d7e806107038e"
+    },
+    "experiments/logs/triangle-n100-p0.00-case11-eps1e-04.log": {
+      "bytes": 8459,
+      "sha256": "8091936962b41d37b35a039b40cc285cc0132929dbd004950e13685f85fc734e"
+    },
+    "experiments/logs/triangle-n100-p0.00-case11.log": {
+      "bytes": 28702,
+      "sha256": "533edbce9bdccc6ce007549d4a9d87568faf0feaec14024b64bb068672fcdcc0"
+    },
+    "experiments/logs/triangle-n100-p0.00-case12-eps1e-04.log": {
+      "bytes": 23416,
+      "sha256": "f293895461ae77b3ba7d337293ef118718908edbb6cb2bd314435978787b65b6"
+    },
+    "experiments/logs/triangle-n100-p0.00-case12.log": {
+      "bytes": 8256,
+      "sha256": "207a9ebd2c94dc53693418fccdc38f5a8f43ee3e5ccd5d04af003ff99624c792"
+    },
+    "experiments/logs/triangle-n100-p0.30-case01.log": {
+      "bytes": 14513,
+      "sha256": "51e57ef0652c0157dc73dacf423e91038fa21c6f8b758047ccf39981db12c324"
+    },
+    "experiments/logs/triangle-n100-p0.30-case02.log": {
+      "bytes": 13074,
+      "sha256": "eee5a0e269d6cb7cde3db82dcb9905fa60b0c0abab4be63133a0972c84ead01b"
+    },
+    "experiments/logs/triangle-n100-p0.30-case03.log": {
+      "bytes": 22209,
+      "sha256": "af5de029a9ea0bc2987f6c683d31f623cb6a1d6774330eedc10d27cde81d59d5"
+    },
+    "experiments/logs/triangle-n100-p0.30-case04.log": {
+      "bytes": 7802,
+      "sha256": "f48a622cdf213475b9adcacf6ad9b2ead325d25c2af6302fed670e6eaaf40a57"
+    },
+    "experiments/logs/triangle-n100-p0.30-case05.log": {
+      "bytes": 12270,
+      "sha256": "c80b2f6ad7a251a81d04b112ae41eec745456993842765f75da9bc52b35624f7"
+    },
+    "experiments/logs/triangle-n100-p0.30-case06.log": {
+      "bytes": 41410,
+      "sha256": "6a9fbe49eaf8bdd91b6f30a17542f9aab1bdc32bfc6098b631a4ce2281ff380d"
+    },
+    "experiments/logs/triangle-n100-p0.30-case07.log": {
+      "bytes": 23076,
+      "sha256": "2359c5231c71b472dbbf00616102d61e13c4ada3019abc6ed68a6a69d1c4245c"
+    },
+    "experiments/logs/triangle-n100-p0.30-case08.log": {
+      "bytes": 21667,
+      "sha256": "68e28430e7caa7167d5b2e9f93c003b1c04cd0c687e9350a6dabd46477c270bc"
+    },
+    "experiments/logs/triangle-n100-p0.30-case09.log": {
+      "bytes": 30264,
+      "sha256": "bccd11e264d3195339c25e062c22ea2665e61b4531a59f6572a632c68cf0da5f"
+    },
+    "experiments/logs/triangle-n100-p0.30-case10.log": {
+      "bytes": 42303,
+      "sha256": "ef91cc7eb8cc70f101f22a87ce0869de163514f6e53ed391b75f170ae3cf234c"
+    },
+    "experiments/logs/triangle-n100-p0.30-case11.log": {
+      "bytes": 7885,
+      "sha256": "4c684fe42ceadc40d70d87cb21393b67eea0229f94a012cb180f8c28fc371314"
+    },
+    "experiments/logs/triangle-n100-p0.30-case12.log": {
+      "bytes": 7819,
+      "sha256": "24b689544041161641b85332d734e0618fb650606d7f40ef20b5423dde21b872"
+    },
+    "experiments/logs/triangle-n50-p0.00-case01.log": {
+      "bytes": 10531,
+      "sha256": "f4fd1b0589c53ff1129a43b2a08297f955135f53e5d7ff9d9abdec584643522c"
+    },
+    "experiments/logs/triangle-n50-p0.00-case02.log": {
+      "bytes": 49875,
+      "sha256": "c61d6645ff5cf6f687c29a780e4f2e88dcc2b1ebe91318813001633941101c94"
+    },
+    "experiments/logs/triangle-n50-p0.00-case03.log": {
+      "bytes": 7701,
+      "sha256": "44002f9da3a82198d8ce25ebb980b89acd14eae49a3c97208f0317a218215d0b"
+    },
+    "experiments/logs/triangle-n50-p0.00-case04.log": {
+      "bytes": 11702,
+      "sha256": "f1eb35e7d95cdb3bdd16f0b2ec0c3b504364f70b55a9f2c248967e3be361685e"
+    },
+    "experiments/logs/triangle-n50-p0.00-case05.log": {
+      "bytes": 9061,
+      "sha256": "811a38d6fcb1974813dcef278bdccfdb7a061e8ee600c42bbc2f6b395640e031"
+    },
+    "experiments/logs/triangle-n50-p0.00-case06.log": {
+      "bytes": 14657,
+      "sha256": "28f14013d9498f71042a9dc519b0a602028ad2128f9bbc111d148a497f87a342"
+    },
+    "experiments/logs/triangle-n50-p0.00-case07.log": {
+      "bytes": 12586,
+      "sha256": "daf35fdbc27d64820de83e62cd165a483264c39c35f5e14e87a81ce33f4a91ee"
+    },
+    "experiments/logs/triangle-n50-p0.00-case08.log": {
+      "bytes": 20519,
+      "sha256": "3322c62b4e855e8aede60ef24a53b5531ab2e27ca3af44249950a2d41bb561a0"
+    },
+    "experiments/logs/triangle-n50-p0.00-case09.log": {
+      "bytes": 9691,
+      "sha256": "15b2ccba82cbf96228d7dc5268967ec5b210e30adb1dd69c11c29667b230765f"
+    },
+    "experiments/logs/triangle-n50-p0.00-case10.log": {
+      "bytes": 7247,
+      "sha256": "93a670d22ee52c790f76d6ae766109416adb2596544b63e59a3b7c893d5a74b8"
+    },
+    "experiments/logs/triangle-n50-p0.00-case11.log": {
+      "bytes": 11927,
+      "sha256": "0e6476a484a42e4eb06f2891ac5a52beaa5609d4945abb641a57d70dbe2cf5c7"
+    },
+    "experiments/logs/triangle-n50-p0.00-case12.log": {
+      "bytes": 12402,
+      "sha256": "66ab2a0155e575431ab3686f55f894aec9700bff2176f958e2077c2e524dad93"
+    },
     "experiments/make_figures.py": {
       "bytes": 13482,
       "sha256": "c971260f55b92bbddc1b0802a9c89f04bf98f872ad2bcac27db7dc8d866aaadc"
@@ -131,6 +615,106 @@
     "experiments/requirements.txt": {
       "bytes": 75,
       "sha256": "71f7b37bf3dad6ed21a592d0aeaca85650adfe3287f39878fce540f17e3831b2"
+    },
+    "experiments/results/body-n100-p0.00-case01.json": {
+      "bytes": 41623,
+      "sha256": "d24a25ecdc3becbf5059419c70d9fd5e68c808959fca02ef271afc08b3d497b0"
+    },
+    "experiments/results/body-n100-p0.00-case01.npz": {
+      "bytes": 317142,
+      "sha256": "87a94ec094674200f835ed10c4a9e47a132e4e8bfed9b004f16d5dd183f1b2a7"
+    },
+    "experiments/results/body-n100-p0.00-case02.json": {
+      "bytes": 41555,
+      "sha256": "c878ea750c4d476b5170c0423beb02b737d53ba06968c9b9f52923cbf47d1dc6"
+    },
+    "experiments/results/body-n100-p0.00-case02.npz": {
+      "bytes": 389874,
+      "sha256": "5b254628ce2820c4c24645e9602cd3776b7ad9cab96fd1fa7633147d49a1ec7a"
+    },
+    "experiments/results/body-n100-p0.00-case03.json": {
+      "bytes": 41606,
+      "sha256": "39d33ec6e715338551f81610a8ec000f673190aac21e5efcab346d30f370af63"
+    },
+    "experiments/results/body-n100-p0.00-case03.npz": {
+      "bytes": 303799,
+      "sha256": "8f56bd5db3678ea3f0df9a18f00375fd4b54e74fa42162fa8c619b120ad4f6e1"
+    },
+    "experiments/results/body-n100-p0.00-case04.json": {
+      "bytes": 41635,
+      "sha256": "e4e03244aea2b3165295e197218274f4a17392992eac60e922c2368c35763867"
+    },
+    "experiments/results/body-n100-p0.00-case04.npz": {
+      "bytes": 319472,
+      "sha256": "eaca14d11ff254945748aeb204a9164743a8e3ac775ce929ad550c6a24bfc004"
+    },
+    "experiments/results/body-n100-p0.00-case05.json": {
+      "bytes": 41368,
+      "sha256": "3d02af4d56060668c455385dd39ea28badab0dc1eada418cae046209bf0be3e1"
+    },
+    "experiments/results/body-n100-p0.00-case05.npz": {
+      "bytes": 375352,
+      "sha256": "8fdc617538e6a8b39f8faf7eb1c5dc209465dd469abc7d7aab486e7d88c9e297"
+    },
+    "experiments/results/body-n100-p0.00-case06.json": {
+      "bytes": 41364,
+      "sha256": "abf81ba3c6d5a7693b82b72efde707ed653b982c848e4e0d0b8d481319f134b2"
+    },
+    "experiments/results/body-n100-p0.00-case06.npz": {
+      "bytes": 325746,
+      "sha256": "322e992c0253310267f8bf9bb9a228baa25f3aaf8cc7e169cb9d87d0bc8b9a43"
+    },
+    "experiments/results/body-n100-p0.00-case07.json": {
+      "bytes": 41493,
+      "sha256": "40e23dee4c724e86b1dd5f439b379b63aa1b53de44cbf2fce32240db484d4b2f"
+    },
+    "experiments/results/body-n100-p0.00-case07.npz": {
+      "bytes": 279905,
+      "sha256": "f1dc10c32b45f5d49b28a388f71a736afbdd8a2c8468773bc0150a8a334d0232"
+    },
+    "experiments/results/body-n100-p0.00-case08.json": {
+      "bytes": 41500,
+      "sha256": "6c5d3561c8fe2482a01cdcc239de33fc350ec74f5360566abb720027b82166e8"
+    },
+    "experiments/results/body-n100-p0.00-case08.npz": {
+      "bytes": 492712,
+      "sha256": "9b2f812dbfb0b816f005e72c156f0021b0aaef095cbfadd9a86ac94e1970bc51"
+    },
+    "experiments/results/body-n100-p0.00-case09.json": {
+      "bytes": 41486,
+      "sha256": "190bdac837b515c2d301e97912a899b6f4e2128c94d58392bc111fa03075f7ea"
+    },
+    "experiments/results/body-n100-p0.00-case09.npz": {
+      "bytes": 400281,
+      "sha256": "9d22f0509d81a8be7660fd522b47cc7a623ac8316d65160bf1feb585eeea47a1"
+    },
+    "experiments/results/body-n100-p0.00-case10.json": {
+      "bytes": 41474,
+      "sha256": "2e8730ee63a341aff9e44698951da28fdd2e84b8553ecf583175d86a9923853b"
+    },
+    "experiments/results/body-n100-p0.00-case10.npz": {
+      "bytes": 483882,
+      "sha256": "3cb21785d6082b7632c6f3144ab72f94b08e0cd40efe38755a9f14b5014a372a"
+    },
+    "experiments/results/body-n100-p0.00-case11.json": {
+      "bytes": 41432,
+      "sha256": "6bb78b8f80ae81fa6743e83f7bedc8f0549a75c4e3c7235763882e215ac89d19"
+    },
+    "experiments/results/body-n100-p0.00-case11.npz": {
+      "bytes": 913497,
+      "sha256": "42d3ba1a1e2e3a5bd2bb131d1f7dbf3acad02140407ece5b9122d40b94b1b67f"
+    },
+    "experiments/results/body-n100-p0.00-case12.json": {
+      "bytes": 41442,
+      "sha256": "c565f14367de32b0840a4246b32a040518b72cea66c4fce6f1a1564342058277"
+    },
+    "experiments/results/body-n100-p0.00-case12.npz": {
+      "bytes": 364615,
+      "sha256": "0ff99c69989a260218a79c5b61d0f84c159d9facda10f0701ee0fe014b343593"
+    },
+    "experiments/results/body-n100-p0.30-case01.json": {
+      "bytes": 41555,
+      "sha256": "92dd766c4e83ef70c3e9a46a8ce9aaf6f4abcff857d1383925f12a77473574b0"
     },
     "experiments/revision_v5/adaptive_mesh.py": {
       "bytes": 10218,

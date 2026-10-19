@@ -26,6 +26,8 @@
     "experiments/revision_v7/logs": "Complete IPOPT logs for all 217 current attempts.",
     "experiments/revision_v7/refinement": "Per-case sequences and cumulative costs of all refinement attempts.",
     "experiments/revision_v7/catalog": "Stage-specific links from each attempt to its input, output, log and dense collision data.",
+    "experiments/results": "Historical fixed-mesh study; superseded and not used for current paper tables.",
+    "experiments/logs": "Historical fixed-mesh solver logs.",
     "experiments/revision_v5": "Historical MUMPS study, including diagnostic model variants; superseded by the MA27 rerun.",
     "experiments/revision_v6": "Historical geometry/proof checks and figure source; no new NLP runs.",
     "manuscript/figures": "Generated experiment and geometric figures.",
