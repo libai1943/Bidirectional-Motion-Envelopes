@@ -42,6 +42,7 @@ index=dict(current_manuscript='v8; numerical results unchanged from the complete
     commands={
         'verify_published_files':'python experiments/verify_release.py',
         'verify_and_regenerate_current_outputs':'python experiments/revision_v7/reproduce.py',
+        'recompute_all_dense_collision_checks':'python experiments/revision_v7/verify_interpolation.py',
         'independent_geometry_check':'python experiments/revision_v7/geometry_checks.py',
         'rerun_all_current_solves':'python experiments/revision_v7/reproduce.py --fresh',
         'regenerate_references':'Run experiments/prepare_initials.m in MATLAB.'},

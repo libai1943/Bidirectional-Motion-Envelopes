@@ -5,12 +5,12 @@
   "scope": "All 217 current manuscript attempts, own source, benchmark inputs, timed references, configurations, results, logs, collision arrays, generated figures and tables. No historical studies, author assets or third-party source/binaries.",
   "files": {
     "experiments/build_release_index.py": {
-      "bytes": 4714,
-      "sha256": "f7a98e0329e942c086105e2cd95c640979c047c2c5470cd9a0e546cff99738a5"
+      "bytes": 4819,
+      "sha256": "29e0dfb7ab761f090f7649bd33b66ec67fece08c8446c9a019e8257c3dc77fa3"
     },
     "experiments/experiment-index.json": {
-      "bytes": 3117,
-      "sha256": "ef5397931d9043b1874e0e7d6260a85a4c8c931b89bb4b7589563556c9adbca3"
+      "bytes": 3220,
+      "sha256": "7901c5c8976b4f76565320c9c6f12fda45ee44cce3bb9ebc7de05bdff8502fe1"
     },
     "experiments/fetch_benchmark.py": {
       "bytes": 1101,
@@ -2851,6 +2851,10 @@
     "experiments/revision_v7/verification.json": {
       "bytes": 239,
       "sha256": "90d632424090f598f60fb56eaece5eed5ef94f7ee11b336924602e88466a9123"
+    },
+    "experiments/revision_v7/verify_interpolation.py": {
+      "bytes": 1496,
+      "sha256": "a68c4fefdfc7b010e5547e9c6e908a14fdf3311e891b6c9a2f3bc22d010fac2b"
     },
     "experiments/revision_v7/verify_mesh.py": {
       "bytes": 2899,
