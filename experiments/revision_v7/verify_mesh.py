@@ -28,6 +28,13 @@ except ValueError as error:
 else:
     raise AssertionError('Subminimum rounding must fail explicitly.')
 summary=dict(short_motion=dict(intervals=len(h),structural_min=3,times=meta['selected_times_s']),small_beta_failure=small_beta,cases=[])
+assert structural_interval_bound(straight(1e-14),.001,.5,60)==3
+try:
+    select_obstacle_aware(data,.6,T_max=.003)
+except ValueError as error:
+    assert 'time' in str(error) or 'endpoint' in str(error)
+else:
+    raise AssertionError('Insufficient total time must be rejected.')
 for i in range(1,13):
     data=json.loads((ROOT/'experiments/inputs'/f'case{i:02d}.json').read_text())
     Z,h,info=select_obstacle_aware(data,.6)

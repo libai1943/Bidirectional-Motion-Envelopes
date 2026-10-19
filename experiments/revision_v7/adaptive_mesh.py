@@ -163,7 +163,7 @@ def structural_interval_bound(data, h_min, h_max, T_max):
     required=max(distance,heading/kappa_max)
     if required>car['vmax']*T_max+1e-12:
         raise ValueError('Endpoint displacement exceeds the time and speed bounds.')
-    for n in range(1,int(np.floor(T_max/h_min))+1):
+    for n in range(3 if required>0 else 1,int(np.floor(T_max/h_min))+1):
         i=np.arange(n)
         speeds=np.minimum(car['vmax'],car['amax']*h_max*np.minimum(np.maximum(i-1,0),n-i))
         capacity=min(h_max*float(speeds.sum()),car['vmax']*T_max)
